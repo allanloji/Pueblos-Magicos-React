@@ -1,0 +1,12 @@
+.home-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: transparent;
+}

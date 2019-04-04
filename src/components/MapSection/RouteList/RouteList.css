@@ -1,0 +1,12 @@
+.routeListDiv{
+    overflow-y: scroll ;
+    height: calc(100% - 30.7%);
+    margin-top: 1rem;
+}
+
+.listRoutesList {
+    height: auto;
+    list-style: none;
+    padding-left: 0;
+    margin: 1em;
+}

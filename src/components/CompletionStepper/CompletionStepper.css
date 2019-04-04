@@ -1,0 +1,48 @@
+.completion-stepper-container {
+    width: auto;
+    height: auto;
+    margin-top: 2.1875rem;
+}
+
+.completion-stepper-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.completion-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: calc(calc(2.5rem + 0.4rem) / 2);
+    font-size: 1.25rem;
+}
+
+.completion-circle.complete {
+    color: white;
+    background-color: #FF3366;
+}
+
+.completion-circle.current {
+    border: 0.2rem solid #FF3366;
+}
+
+.completion-circle.pending {
+    color: #4A4A4A;
+    background-color: #CDCDCD;
+}
+
+.completion-line {
+    width: 2.7rem;
+    height: 0.2rem;
+}
+
+.completion-line.complete {
+    background-color: #FF3366;
+}
+
+.completion-line.pending {
+    background-color: #CDCDCD;
+}

@@ -1,0 +1,21 @@
+.preference-picker-container {
+    width: 100%;
+    height: auto;
+    margin-top: 1.5625rem;
+    text-align: left;
+}
+
+.preference-picker-title {
+    font-size: 1.25rem;
+    color: black;
+}
+
+.preference-list-container {
+    width: 100%;
+    height: auto;
+    margin-top: 0.625rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}

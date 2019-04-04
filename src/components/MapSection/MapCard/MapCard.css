@@ -1,0 +1,33 @@
+.mapCard{
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.3125rem;
+    width: 25rem;
+    top: 1.875rem;
+    left: 1.875rem;
+    bottom: 1.875rem;
+    background-color: white;
+    position: fixed;
+    overflow: hidden;
+}
+
+.map-card-selection{
+    font-size: 1.25rem;
+}
+
+.cardMapPicker{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.cardSelectionMap{
+    text-align: center;
+    max-width: calc(100% - (2.8rem * 2));
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.875rem;
+
+}
+
+.map-card-preference-picker .preference-list-container {
+    justify-content: center;
+}

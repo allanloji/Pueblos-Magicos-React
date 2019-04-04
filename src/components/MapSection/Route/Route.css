@@ -1,0 +1,55 @@
+.routeCard{
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.3125rem;
+    min-height: 8rem;
+    height: auto;
+    background-color: white;
+    margin-bottom: 1.0rem;
+}
+
+.routeCardOrigin{
+    display: block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.routeCardDestiny{
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    display: block;
+
+}
+
+.routeCardDistance{
+    padding-left: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: block;
+}
+
+.circle {
+    height: 0.9rem;
+    width: 0.9rem;
+    background-color: #FF3366;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 0.5rem;
+}
+
+.destinyCircle {
+    height: 0.7rem;
+    width: 0.7rem;
+    border: 0.1rem solid #FF3366;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.verticalLine{
+    height:30px;
+    margin-left: 1.4rem;
+    width:0.1rem;
+    background-color: #FF3366;
+    border-radius: 20%;
+}
